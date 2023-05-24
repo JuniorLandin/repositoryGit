@@ -1,0 +1,120 @@
+.contRep{
+    max-width: 700px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    padding: 30px;
+    margin: 80px auto;
+}
+
+.load{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.owner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+    border-radius: 20%;
+    margin: 20px 0;
+}
+
+.h1Rep{
+    font-size: 30px;
+}
+
+.pRepo{
+    margin-top: 5px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    line-height: 1.4;
+    max-width: 400px;
+}
+.buttonRep{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    display: flex;
+}
+
+.issus{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #474747;
+    list-style: none;
+}
+.liRep{
+    display: flex;
+    padding: 15px 10px;
+
+}
+
+.imgRep{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #0d2636;
+}
+.divRepMap{
+    flex: 1;
+    margin-left: 12px;
+}
+.strongRep{
+    font-size: 15px;
+}
+.aRep{
+    text-decoration: none;
+    color: #474747;
+
+}
+.aRep:hover{
+    color: #0d2636;
+    transition: 0.3s;
+}
+
+.spanRep{
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 7px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.pLogin{
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+}
+.divButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bb{
+    outline: 0;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+}
+
+
+.bb:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
